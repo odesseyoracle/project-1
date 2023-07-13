@@ -29,6 +29,10 @@ header {
     z-index: 99;
 }
 
+i {
+    height: fit-content;
+}
+
 nav ul {
     float: right;
 }
