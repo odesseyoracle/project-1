@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'VT323', monospace;
+    
 }
 
 body {
@@ -10,4 +13,36 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+header {
+    width: 100vw;
+    height: 25px;
+
+    position: fixed;
+    top: 0;
+
+    background-color: rgb(179, 179, 146);
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+
+    display: inline;
+    margin: 10px 20px;
+
+}
+
+nav ul li:hover {
+    background-color: rgba(128, 128, 128, 0.636);
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
 }
