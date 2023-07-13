@@ -58,7 +58,7 @@ nav ul li a {
 main {
     width: 600px;
     margin: 5% auto;
-    padding: 10%;
+    padding: 5%;
     padding-top: 0;
 
     background-color: rgba(255, 228, 196, 0.578);
@@ -169,3 +169,6 @@ main>section {
 }
 
 
+#trailer iframe {
+    width: 100%;
+}
