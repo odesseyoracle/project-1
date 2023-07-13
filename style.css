@@ -115,7 +115,7 @@ main>section {
 
 .character div {
     position: absolute;
-    left: 100px;
+    left: 0;
     bottom: -10px;
     font-size: 3rem;
     background-color: rgba(250, 235, 215, 0.782);
@@ -132,8 +132,8 @@ main>section {
     background-position: center;
     padding: 10px;
     /* position: relative; */
-    background-attachment: fixed, scroll;
     
+    background-attachment: fixed, scroll;
 }
 
 .plotpoint p {
