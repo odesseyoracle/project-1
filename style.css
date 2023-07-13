@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 10px;
     font-family: 'VT323', monospace;
+    color: rgb(107, 85, 57);
     
 }
 
@@ -13,6 +14,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
 
 header {
@@ -24,6 +26,7 @@ header {
     top: 0;
 
     background-color: rgb(179, 179, 146);
+    z-index: 99;
 }
 
 nav ul {
@@ -49,15 +52,69 @@ nav ul li a {
 }
 
 main {
-    height: 100vh;
-    margin: 5%;
+    width: 600px;
+    margin: 5% auto;
     padding: 10%;
+    padding-top: 0;
 
     background-color: rgba(255, 228, 196, 0.578);
 }
 
+.intro {
+
+    /* height: 100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.intro img {
+    width: 100%;
+    margin: 20px auto;
+}
+
 h1 {
-    color: rgb(134, 108, 73);
+
+    font-size: 7rem;
+    text-align: center;
+}
+
+h2 {
     font-size: 5rem;
     text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+main>section {
+    margin-bottom: 20px;
+}
+
+.character {
+    margin: 20px auto;
+    position: relative;
+    width: 350px;
+    height: 250px;
+
+}
+
+.character img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25%;
+    position: absolute;
+}
+
+.character div {
+    position: absolute;
+    left: 100px;
+    bottom: -10px;
+    font-size: 3rem;
+    background-color: rgba(250, 235, 215, 0.782);
+    border: 2px solid rgb(197, 122, 122);
+
 }
