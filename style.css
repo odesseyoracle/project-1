@@ -157,3 +157,27 @@ main>section {
 .plotpoint:nth-of-type(3) {
     background-image: url(images/Asteroid-City-Essay-Culture.webp);
 }
+
+.framebox {
+    width: 300px;
+    height: 300px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.framebox:nth-of-type(1) {
+    background-image: url(images/frame1.webp);
+}
+
+.framebox:nth-of-type(2) {
+    background-image: url(images/frame2.jpg);
+}
+
+.framebox:nth-of-type(3) {
+    background-image: url(images/frame3.png);
+}
+
+.framebox:nth-of-type(4) {
+    background-image: url(images/frame4.jpg);
+}
