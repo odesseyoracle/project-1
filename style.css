@@ -172,3 +172,11 @@ main>section {
 #trailer iframe {
     width: 100%;
 }
+
+footer {
+    border: 2px solid white ;
+    background-color: rgb(107, 85, 57);
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
